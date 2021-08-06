@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HostelDb", "HostelDb\HostelDb.sqlproj", "{F8BFC0DE-5B2F-480B-8AE1-22D034E024EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelAppLibrary", "HotelAppLibrary\HotelAppLibrary.csproj", "{7A2ABA98-A91B-4630-83E9-C73AAAF69901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8BFC0DE-5B2F-480B-8AE1-22D034E024EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BFC0DE-5B2F-480B-8AE1-22D034E024EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BFC0DE-5B2F-480B-8AE1-22D034E024EA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F8BFC0DE-5B2F-480B-8AE1-22D034E024EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BFC0DE-5B2F-480B-8AE1-22D034E024EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8BFC0DE-5B2F-480B-8AE1-22D034E024EA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7A2ABA98-A91B-4630-83E9-C73AAAF69901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2ABA98-A91B-4630-83E9-C73AAAF69901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2ABA98-A91B-4630-83E9-C73AAAF69901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2ABA98-A91B-4630-83E9-C73AAAF69901}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90FC2220-EB36-4C6D-AE84-C78011CC80A2}
+	EndGlobalSection
+EndGlobal
