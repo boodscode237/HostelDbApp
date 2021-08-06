@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HostelDb", "HostelDb\HostelDb.sqlproj", "{F8BFC0DE-5B2F-480B-8AE1-22D034E024EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelAppLibrary", "HotelAppLibrary\HotelAppLibrary.csproj", "{7A2ABA98-A91B-4630-83E9-C73AAAF69901}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelAppLibrary", "HotelAppLibrary\HotelAppLibrary.csproj", "{7A2ABA98-A91B-4630-83E9-C73AAAF69901}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostelApp.web", "HostelApp.web\HostelApp.web.csproj", "{FD417512-C29F-42BA-ACF3-1C3F8A6C3501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HostelApp.web", "HostelApp.web\HostelApp.web.csproj", "{FD417512-C29F-42BA-ACF3-1C3F8A6C3501}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

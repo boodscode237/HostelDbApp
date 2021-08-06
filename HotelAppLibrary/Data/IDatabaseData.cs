@@ -16,5 +16,6 @@ namespace HotelAppLibrary.Data
 
         List<BookingFullModel> SearchBookings(string lastName);
         void CheckInGuest(int bookingId);
+        RoomTypeModel GetRoomTypeById(int id);
     }
 }

@@ -92,5 +92,14 @@ namespace HotelAppLibrary.Data
                 ConnectionStringName,
                 true);
         }
+
+        public RoomTypeModel GetRoomTypeById(int id)
+        {
+            return _db.LoadData<RoomTypeModel, dynamic>(
+                "dbo.spRoomTypes_GetById",
+                new {id},
+                ConnectionStringName,
+                true).FirstOrDefault();
+        }
     }
 }

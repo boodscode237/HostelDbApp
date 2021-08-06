@@ -20,7 +20,8 @@ namespace HostelApp.web.Pages
         [BindProperty(SupportsGet = true)]
         public DateTime EndDate { get; set; } = DateTime.Now.AddDays(1);
 
-        [BindProperty(SupportsGet = true)] public bool SearchEnabled { get; set; } = false;
+        [BindProperty(SupportsGet = true)] 
+        public bool SearchEnabled { get; set; } = false;
 
         public List<RoomTypeModel> AvailableRoomTypes { get; set; }
 
@@ -39,7 +40,12 @@ namespace HostelApp.web.Pages
         public IActionResult OnPost()
         {
             
-            return RedirectToPage(new {SearchEnabled = true, StartDate, EndDate});
+            return RedirectToPage(new
+            {
+                SearchEnabled = true, 
+                StartDate = StartDate.ToString("yyyy-MM-dd"), 
+                EndDate = EndDate.ToString("yyyy-MM-dd")
+            });
         }
     }
 }
