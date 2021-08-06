@@ -14,3 +14,4 @@ begin
 	from dbo.Guests
 	where FirstName = @firstName and LastName = @lastName;
 end
+RETURN 0

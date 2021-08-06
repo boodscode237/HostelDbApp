@@ -14,3 +14,4 @@ begin
 	inner join dbo.RoomTypes rt on r.RoomTypeId = rt.Id
 	where b.StartDate = @startDate and g.LastName = @lastName;
 end
+RETURN 0

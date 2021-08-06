@@ -18,3 +18,4 @@ begin
 	group by t.Id, t.Title, t.Description, t.Price
 	
 end
+RETURN 0

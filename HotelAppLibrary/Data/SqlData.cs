@@ -8,7 +8,7 @@ using HotelAppLibrary.Models;
 
 namespace HotelAppLibrary.Data
 {
-    public class SqlData
+    public class SqlData : IDatabaseData
     {
         private readonly ISqlDataAccess _db;
         private const string ConnectionStringName = "SqlDb";

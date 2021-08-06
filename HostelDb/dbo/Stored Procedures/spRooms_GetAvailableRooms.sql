@@ -18,3 +18,4 @@ AS
 			or (b.StartDate <= @startDate and @startDate < b.EndDate)
 			);
 	end
+RETURN 0

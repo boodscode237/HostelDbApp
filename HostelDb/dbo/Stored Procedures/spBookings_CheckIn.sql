@@ -8,3 +8,4 @@ begin
 	set CheckedIn = 1
 	where Id = @Id;
 end
+RETURN 0
