@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using HotelAppLibrary.Data;
 using HotelAppLibrary.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace HostelApp.Desktop
 {
@@ -34,6 +35,18 @@ namespace HostelApp.Desktop
         {
             List<BookingFullModel> bookings = _db.SearchBookings(lastNameText.Text);
             resultsList.ItemsSource = bookings;
+        }
+
+
+        private void CheckInButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            var checkInForm = App.ServiceProvider.GetService<CheckInForm>();
+
+            var model = (BookingFullModel)((Button) e.Source).DataContext;
+
+            checkInForm.PopulateCheckInInfo(model);
+
+            if (checkInForm != null) checkInForm.Show();
         }
     }
 }
